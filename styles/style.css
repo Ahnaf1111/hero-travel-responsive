@@ -183,6 +183,75 @@ width: 174px;
     filter: brightness(70%);
     transform: scale(1.01);
 }
+/* discount */
+.discount{
+    margin-top: 100px;
+}
+.discount>p{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.time{
+    display: flex;
+    gap: 24px;
+}
+.time>span>i{
+    color: #FF5400;
+}
+.time>span{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.discount-bg{
+    background-image: url(../Images/discount-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 56px;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.discount-bg-2{
+    display: flex;
+    justify-content: flex-start;
+    background-image: url(../Images/discountbg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.discount-card{
+    padding: 50px;
+    max-width: 579px;
+    border-radius: 1rem;
+border: 2px solid #FFF;
+background-color: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+}
+.discount-card>h4{
+    color: #131318;
+font-family: Mulish;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 26px;
+margin-bottom: 16px;
+}
+.discount-card>h5{
+    color: #FF5400;
+font-size: 1.4rem;
+font-weight: 800;
+margin-top: 16px;
+margin-bottom: 24px;
+}
+
+
 
 
 
@@ -225,6 +294,16 @@ width: 174px;
     grid-template-columns: 1fr;
     padding: 10px;
 }
-
+/* discount */
+.time{
+    flex-wrap: wrap;
+}
+.discount-bg{
+    justify-content: center;
+}
+.discount-card{
+    padding: 1.7rem;
+    margin-top: 187px;
+}
 }
 
